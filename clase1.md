@@ -347,4 +347,7 @@ representacion
 en este modulo web aprendimos que la web y HTTP son todos acerca de los recurso 
 Tenemos URL para ubicar esos recursos y tipo de MIME para especificar la 
 representacion de esos recursos 
-Todo esto fue disenado para hacer las cosas 
+Todo esto fue disenado para hacer las cosas funcionen 
+Entonces un servidor Linux puede comunicarse con un cliente de PC y viceversa
+
+
