@@ -312,3 +312,37 @@ Content-Length: 11751
 ... content ...
 </html>
 
+content-type descrbe el tipo de respuesta que esta recibiendo que hay en el
+cuerpo y con que conjunto de carateres esta codificado
+y puede tener una fecha puede tener longitud de contenido lo que
+le permite que al cliente saber cuando se ha recibido el final de este mensaje
+
+Y tambien hay algunas extensiones que ves en esta respuesta
+ASP.NET y IIS
+X-Headers are reserved for nostard header
+
+# status code categories
+
+Range | categories
+100-199 | informational
+200-299 | Successful
+300-309 | Redirection
+400-499 | Client Error
+500-599 | Server error
+
+El codigo de estado que vimos en esa respuesta anterior es muy importatante
+porque le dice al cliente el resultado de la respuesta
+funciono? no? Hay algo mas que hacer? Cada codigo de estado
+que es estandar cae e una de estas cinco categorias
+Si el codigo de estado esta en el rango de 100 a 199
+
+# HTTP Fiddler
+
+fiddler es una herramienta gratuita
+su funcion es interceptar todo el trafico HTTP
+entre una maquina y algun servidor distante
+te permite inspeccionar todas las solicitudes HTTP 
+Y en realidad es mucho mas avanzado que eso
+Puedes construir tus propias solicitudes 
+Puede escribir algunos scripts que manipulen las solicitudes 
+
